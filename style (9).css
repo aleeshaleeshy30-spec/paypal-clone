@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+    display: block;
+}
+
+.transaction {
+    transition: all 0.2s;
+}
+
+.transaction:hover {
+    transform: translateX(8px);
+}
